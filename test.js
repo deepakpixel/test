@@ -8,15 +8,15 @@ d_helper.innerHTML=`<div class="d-helper">
   <p>
     Lorem ipsum laga denge ab to sabke xddd
   </p>
-</div>`
-document.body.append(x)
+</div>`;
+document.body.append(d_helper)
 
 
 
 
 
-if (typeof b.style.cssText !== "undefined") {
-    b.style.cssText = c;
+if (typeof d_helper.style.cssText !== "undefined") {
+    d_helper.style.cssText = d_style;
   } else {
-    b.setAttribute("style", c);
+    d_helper.setAttribute("style", d_style);
   }
