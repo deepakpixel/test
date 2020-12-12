@@ -10,8 +10,8 @@ function mohAqibAddGDom() {
     if (document.getElementById(faervmboirzcqirh)) return;
     let e = document.createElement("div");
     e.innerHTML = `
-            <div class="nt parent movable-parent" style="display: none">
-                <div class="header movable">
+            <div class="nt moh-parent movable-parent" style="display: none">
+                <div class="moh-header movable">
                     <span class="transparent">
                         <span> Enjoy ;) </span>
                     </span>
@@ -19,7 +19,7 @@ function mohAqibAddGDom() {
                         <i class="action">X</i>
                     </span>
                 </div>
-                <div class="gi-parent parent">
+                <div class="gi-parent moh-parent">
                     <div class="if-bro"></div>
                     <iframe
                         src=""
@@ -31,7 +31,7 @@ function mohAqibAddGDom() {
                     ></iframe>
                 </div>
             </div>
-            <div class="moh-g-activator waiting-for-g parent">
+            <div class="moh-g-activator waiting-for-g moh-parent">
                     <div></div>
             </div>
             `;
