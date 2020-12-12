@@ -13,11 +13,11 @@
     pointer-events: none;
     z-index: 999999;
 }
-.faervmboirzcqirh .parent {
+.faervmboirzcqirh .moh-parent {
     pointer-events: all;
     position: relative;
 }
-.faervmboirzcqirh .header {
+.faervmboirzcqirh .moh-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,14 +76,14 @@
 .faervmboirzcqirh .movable:active {
     cursor: grabbing;
 }
-.faervmboirzcqirh .header .action {
+.faervmboirzcqirh .moh-header .action {
     cursor: pointer;
     display: block;
     height: 30px;
     line-height: 30px;
     padding: 0 10px;
 }
-.faervmboirzcqirh .header .action:hover {
+.faervmboirzcqirh .moh-header .action:hover {
     cursor: pointer;
     color: darkred;
     animation: aqibzoom 0.4s ease-out infinite alternate;
