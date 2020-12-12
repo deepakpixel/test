@@ -1,3 +1,113 @@
-.moh div{
-color:red;
+.faervmboirzcqirh * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.faervmboirzcqirh {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 999999;
+}
+.faervmboirzcqirh .parent {
+    pointer-events: all;
+    position: relative;
+}
+.faervmboirzcqirh .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    padding: 5px 16px;
+    color: #7e7e7e;
+    background-color: #ebebeb;
+}
+.faervmboirzcqirh .nt .if {
+    position: relative;
+}
+.faervmboirzcqirh .nt .if-bro::before {
+    content: "It's taking longer then expected";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 10px;
+}
+.faervmboirzcqirh .nt .if-bro {
+    background-image: linear-gradient(
+        135deg,
+        rgb(243, 107, 55) 0%,
+        rgb(243, 107, 55) 23%,
+        rgb(244, 133, 60) 23%,
+        rgb(244, 133, 60) 27%,
+        rgb(245, 159, 64) 27%,
+        rgb(245, 159, 64) 73%,
+        rgb(245, 186, 69) 73%,
+        rgb(245, 186, 69) 74%,
+        rgb(246, 212, 73) 74%,
+        rgb(246, 212, 73) 78%,
+        rgb(247, 238, 78) 78%,
+        rgb(247, 238, 78) 100%
+    );
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.faervmboirzcqirh .nt {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* SETTINGS */
+.faervmboirzcqirh .transparent {
+    pointer-events: none;
+}
+.faervmboirzcqirh .movable:hover {
+    cursor: grab;
+}
+.faervmboirzcqirh .movable:active {
+    cursor: grabbing;
+}
+.faervmboirzcqirh .header .action {
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.faervmboirzcqirh .header .action:hover {
+    cursor: pointer;
+    color: darkred;
+    animation: aqibzoom 0.4s ease-out infinite alternate;
+}
+@keyframes aqibzoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+.faervmboirzcqirh .waiting-for-g {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: help;
+}
+
+.faervmboirzcqirh .zoom {
+    animation: aqibzoom 0.4s ease-out infinite alternate;
 }
