@@ -4,6 +4,10 @@
     box-sizing: border-box;
     user-select: none;
 }
+.faervmboirzcqirh *::after,
+*::before {
+    content: unset;
+}
 .faervmboirzcqirh {
     position: fixed;
     top: 0;
