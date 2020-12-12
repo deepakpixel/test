@@ -2,9 +2,12 @@ var faervmboirzcqirh = "faervmboirzcqirh";
 var faervmboiElement = document.getElementById(faervmboirzcqirh);
 var isMohGAct = false;
 
-document.addEventListener("click", mohAqibGStart, false);
-
 mohAqibAddGDom();
+
+document.addEventListener("click", mohAqibGStart, false);
+document
+    .querySelector(".moh-close-nt")
+    .addEventListener("click", mohAqibHide, false);
 
 function mohAqibAddGDom() {
     if (document.getElementById(faervmboirzcqirh)) return;
@@ -15,7 +18,7 @@ function mohAqibAddGDom() {
                     <span class="transparent">
                         <span> Enjoy ;) </span>
                     </span>
-                    <span onclick="mohAqibHide(this)">
+                    <span class="moh-close-nt">
                         <i class="action">X</i>
                     </span>
                 </div>
@@ -63,7 +66,8 @@ function mohAqibGEnd() {
     faervmboiElement.querySelector(".waiting-for-g").classList.remove("zoom");
 }
 
-function mohAqibHide(el) {
+function mohAqibHide(e) {
+    let el = e.target;
     let p = el.closest(".movable-parent");
     p.style.display = p.style.display == "none" ? "block" : "none";
     p.style.transform = "none";
