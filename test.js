@@ -46,7 +46,7 @@ function mohAqibGAct() {
     isMohGAct = true;
     document.body.style.cursor = "progress";
     faervmboiElement.querySelector(".waiting-for-g").classList.add("zoom");
-    faervmboiElement.querySelector(".nt").style.display = "block";
+    faervmboiElement.querySelector(".nt").style.display = "none";
 }
 function mohAqibGStart(e) {
     if (e.target.classList.contains("moh-g-activator")) return mohAqibGAct();
